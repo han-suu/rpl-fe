@@ -208,7 +208,7 @@ function DetailProductPage() {
             <ProductDetailBox>
                 <Title level={3}>Product Detail</Title>
                 <ProductDetailDivider />
-                <p>{productDetail}</p>
+                <span>{productDetail}</span>
             </ProductDetailBox>
 
 
