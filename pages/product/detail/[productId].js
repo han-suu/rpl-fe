@@ -64,7 +64,7 @@ function DetailProductPage() {
     const [sizeOptions, setSizeOptions] = useState([]);
     const [productPictures, setProductPictures] = useState([]);
 
-    const [itemSize, setItemSize] = useState("s");
+    const [itemSize, setItemSize] = useState("");
     const qtyInput = useRef(1);
 
     const router = useRouter();
@@ -208,7 +208,7 @@ function DetailProductPage() {
             <ProductDetailBox>
                 <Title level={3}>Product Detail</Title>
                 <ProductDetailDivider />
-                <span>{productDetail}</span>
+                <p>{productDetail}</p>
             </ProductDetailBox>
 
 
